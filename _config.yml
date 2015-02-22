@@ -1,0 +1,14 @@
+# Site settings
+title: "Erolle Del Rosario | 3D artist & animator"
+email: del_rosario111@yahoo.com
+description: "Online portfolio for Erolle Del Rosario, 3D artist & animator"
+baseurl: "" # the subpath of your site, e.g. /blog/
+url: "http://erolledelrosario.github.io" # the base hostname & protocol for your site
+twitter_username: EDRCreative
+facebook_url: "https://www.facebook.com/pages/Philosofly/143716039043766"
+youtube_url: "http://www.youtube.com/channel/UCexS0rHw8p1IqlVViEBY4Ng/videos"
+instagram_url: "http://instagram.com/erolle/"
+github_username: erolledelrosario
+
+# Build settings
+markdown: kramdown
