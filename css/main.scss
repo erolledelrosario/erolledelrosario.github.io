@@ -10,7 +10,7 @@ $font-title: TitleFont;
 
 // Colors
 $black: rgb(7, 0, 1);
-$transparent-black: rgba(7, 0, 1, 0.9);
+$transparent-black: rgba(7, 0, 1, 0.4);
 $fully-transparent-black: rgba(7, 0, 1, 0);
 $white: rgb(255, 255, 255);
 $dark-grey: rgb(40, 40, 40);
@@ -127,12 +127,65 @@ header {
 }
 
 /*===================================================*/
-/* Responsive styles */
+/* Page styles */
 /*===================================================*/
 
-/* Small devices */
-@media only screen and (max-width: $max-sm-width) {
+#content {
+    margin: 10px auto 45px;
+    padding: 15px;
+    background-color: $transparent-black;
+    min-height: 500px;
+
+    border: 1px solid $dark-grey;
+    -webkit-border-radius: 5px;
+    -moz-border-radius: 5px;
+    border-radius: 5px;
 }
+
+#social-btns {
+    position: fixed;
+    bottom: 0px;
+    right: 0px;
+    background-color: $black;
+    text-align: right;
+    border: 1px solid $brown;
+    border-bottom: none;
+    border-right: none;
+
+    -webkit-border-top-left-radius: 5px;
+    -moz-border-top-left-radius: 5px;
+    border-top-left-radius: 5px;
+
+    -moz-transition: right .1s ease-in;
+    -o-transition: right .1s ease-in;
+    -webkit-transition: right .1s ease-in;
+
+    .z-wrapper {
+        position: relative;
+        z-index: 10;
+        padding-right: 8px;
+
+        a {
+            color: $cream;
+            float: left;
+            font-size: 24px;
+            margin: 0;
+            margin-left: 8px;
+            padding: 0;
+
+            -moz-transition: color .2s ease-in;
+            -o-transition: color .2s ease-in;
+            -webkit-transition: color .2s ease-in;
+        }
+        a:hover {
+            color: $dark-cream;
+        }
+    }
+}
+
+/*===================================================*/
+/* Responsive styles */
+/*===================================================*/
 
 /* Extra small devices */
 @media only screen and (max-width: $max-xs-width) {
@@ -150,5 +203,9 @@ header {
         a.active:hover {
             letter-spacing: 2px;
         }
+    }
+
+    #content {
+        margin: 10px;
     }
 }
