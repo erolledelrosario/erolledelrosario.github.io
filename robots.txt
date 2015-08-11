@@ -4,4 +4,4 @@
 
 User-agent: *
 
-Sitemap: https://secure.vidyard.dev/sitemaps/sitemap-BtGr3TtWW2fS7p1AlzvyBw.xml
+Sitemap: https://secure.vidyard.dev/sitemaps/sitemap-4k4NlOENlvIOarZIGyjPLg.xml
