@@ -4,4 +4,4 @@
 
 User-agent: *
 
-Sitemap: http://secure.vidyard.dev/sitemaps/sitemap-xdTGwt3tD2-SdJoZoaRcIw.xml
+Sitemap: https://staging-aquaman.vidyard.com/sitemaps/sitemap-_1dsq3cPTHf6D7i75MCQ7g.xml
